@@ -1,0 +1,119 @@
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\HarryPotter.exe
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\HarryPotter.deps.json
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\HarryPotter.runtimeconfig.json
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\HarryPotter.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\HarryPotter.pdb
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\HarryPotter.xml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\System.Data.SQLite.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.csproj.AssemblyReference.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HojaEstilos\Estilos.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Borrar.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Clase.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Gryffindor.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Hufflepuff.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Inicio.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Principal.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Ravenclaw.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Registro.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\RegistroAdmin.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Slytherin.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\SombreroSeleccionador.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\UControl\Mas.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\App.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter_MarkupCompile.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter_MarkupCompile.lref
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\MainWindow.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Borrar.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Clase.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Gryffindor.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Hufflepuff.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Inicio.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Principal.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Ravenclaw.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Registro.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\RegistroAdmin.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\Slytherin.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\Paginas\SombreroSeleccionador.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\UControl\Mas.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.g.resources
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.Recursos.Resource1.resources
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.Resource1.resources
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.csproj.GenerateResource.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.AssemblyInfoInputs.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.AssemblyInfo.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.csproj.CoreCompileInputs.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.csproj.CopyComplete
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\refint\HarryPotter.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.xml
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.pdb
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\HarryPotter.genruntimeconfig.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\obj\Release\net6.0-windows\ref\HarryPotter.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\HarryPotter.exe
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\HarryPotter.deps.json
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\HarryPotter.runtimeconfig.json
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\HarryPotter.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\HarryPotter.pdb
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\HarryPotter.xml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\System.Data.SQLite.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\bin\Release\net6.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.csproj.AssemblyReference.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HojaEstilos\Estilos.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Borrar.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Clase.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Gryffindor.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Hufflepuff.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Inicio.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Principal.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Ravenclaw.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Registro.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\RegistroAdmin.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Slytherin.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\SombreroSeleccionador.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\UControl\Mas.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\App.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter_Content.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter_MarkupCompile.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter_MarkupCompile.lref
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\MainWindow.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Borrar.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Clase.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Gryffindor.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Hufflepuff.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Inicio.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Principal.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Ravenclaw.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Registro.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\RegistroAdmin.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\Slytherin.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\Paginas\SombreroSeleccionador.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\UControl\Mas.baml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.g.resources
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.Recursos.Resource1.resources
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.Resource1.resources
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.csproj.GenerateResource.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.AssemblyInfoInputs.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.AssemblyInfo.cs
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.csproj.CoreCompileInputs.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.csproj.CopyComplete
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\refint\HarryPotter.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.xml
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.pdb
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\HarryPotter.genruntimeconfig.cache
+C:\Victoria\DI\2ºDAM\HarryPotter\Harry Potter\HarryPotter\obj\Release\net6.0-windows\ref\HarryPotter.dll

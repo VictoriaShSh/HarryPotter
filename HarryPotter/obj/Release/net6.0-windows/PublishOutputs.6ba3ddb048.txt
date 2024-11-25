@@ -1,0 +1,12 @@
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\HarryPotter.exe
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\HarryPotter.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\HarryPotter.deps.json
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\HarryPotter.runtimeconfig.json
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\HarryPotter.pdb
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\Newtonsoft.Json.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\System.Data.SQLite.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Victoria\DI\2ºDAM\HarryPotter\HarryPotterVictoria\HarryPotter\bin\Release\net6.0-windows\publish\HarryPotter.xml

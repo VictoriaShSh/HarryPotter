@@ -1,0 +1,47 @@
+﻿<Page x:Class="HarryPotter.Paginas.Clase"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HarryPotter.Paginas"
+      mc:Ignorable="d" 
+      d:DesignHeight="675" d:DesignWidth="1200"
+      Title="Clase"
+      ShowsNavigationUI="True"
+      Loaded="Page_Loaded">
+
+    <Page.Resources>
+        <ResourceDictionary Source="/HojaEstilos/Estilos.xaml"/>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/mapa.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="453*"/>
+            <ColumnDefinition Width="341*"/>
+            <ColumnDefinition Width="406*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="160*"/>
+            <RowDefinition Height="38*"/>
+        </Grid.RowDefinitions>
+        <Label Style="{DynamicResource Bienvenida}" Content="Bienvenido a clase de Encantamientos" Foreground="#FF441819" Grid.ColumnSpan="3">
+            <Label.Background>
+                <SolidColorBrush Color="#FFDCC08E" Opacity="0.6"/>
+            </Label.Background>
+        </Label>
+        <ListBox x:Name="Hechizos" FontFamily="Harry P" FontSize="45" Grid.Column="1" Grid.Row="1" SelectionChanged="Hechizos_SelectionChanged" BorderBrush="#FF281214">
+            <ListBox.Background>
+                <SolidColorBrush Color="#FFDCC08E" Opacity="0.8"/>
+            </ListBox.Background>
+        </ListBox>
+        <TextBox x:Name="Descripcion" FontFamily="Harry P" FontSize="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsReadOnly="True" Grid.Row="2" BorderBrush="Transparent" Grid.ColumnSpan="3" TextWrapping="Wrap">
+            <TextBox.Background>
+                <SolidColorBrush Color="#FFDCC08E" Opacity="0.6"/>
+            </TextBox.Background>
+        </TextBox>
+    </Grid>
+</Page>

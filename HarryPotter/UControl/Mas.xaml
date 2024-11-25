@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="HarryPotter.UControl.Mas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:HarryPotter.UControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="539" Width="410">
+
+    <Control.Resources>
+        <ResourceDictionary Source="../HojaEstilos/Estilos.xaml"/>
+    </Control.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="../Resources/Daily.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110*"/>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="79*"/>
+            <RowDefinition Height="156*"/>
+            <RowDefinition Height="104*"/>
+        </Grid.RowDefinitions>
+        <Button Style="{DynamicResource BotonUsCon}" Name="Sombrero" Content="  Sombrero &#xD;&#xA; Seleccionador" FontSize="36" Margin="55,78,167,0" Click="Sombrero_Click" Grid.Row="3"/>
+        <Button Style="{DynamicResource BotonUsCon}" Name="Clase" Content="Clase" Margin="55,19,233,10" FontSize="60" Click="Clase_Click" Grid.Row="1" />
+        <TextBox Style="{DynamicResource UsConText}" Text="Si aun no se te han asignado una casa de&#xD;&#xA;Hogwarts Visita al Sombrero Seleccionador" FontSize="23" Margin="43,10,71,10" Grid.Row="2"/>
+        <TextBox Style="{DynamicResource UsConText}" Text="Si deseas aprender nuevos &#xD;&#xA; hechizos dirigete a Clse" FontSize="29" Margin="55,10,139,83" Grid.Row="3"/>
+    </Grid>
+</UserControl>

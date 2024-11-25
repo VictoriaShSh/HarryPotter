@@ -1,0 +1,913 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HarryPotter</name>
+    </assembly>
+    <members>
+        <member name="T:HarryPotter.API.Consultas">
+            <summary>
+            Clase que se encarga de realizar consultas a la API
+            </summary>
+        </member>
+        <member name="M:HarryPotter.API.Consultas.obtenerPersonajes(System.String)">
+            <summary>
+            Obtiene una lista de nombres de personajes de la casa
+            </summary>
+            <param name="casa">La casa de Hogwarts de la que se quieren obtener los personajes</param>
+            <returns>Una lista de nombres de los personajes de la casa</returns>
+        </member>
+        <member name="M:HarryPotter.API.Consultas.obtenerDatosPersonaje(System.String)">
+            <summary>
+            Obtiene los datos de un personaje especifico
+            </summary>
+            <param name="personaje">Nombre del personaje</param>
+            <returns>Diccionario con los datos del personaje</returns>
+        </member>
+        <member name="M:HarryPotter.API.Consultas.ObtenerHechizos">
+            <summary>
+            Obtiene una lista de hechizos a traves de la API
+            </summary>
+            <returns>Una lista con los nombres de los hechizos</returns>
+        </member>
+        <member name="M:HarryPotter.API.Consultas.ObtenerDescripcionHechizo(System.Int32)">
+            <summary>
+            Obtiene la descripcion de un hechizo especifico a traves de la API
+            </summary>
+            <param name="posicion">La posicion del hechizo en la lista de hechizos</param>
+            <returns>La descripcion del hechizo seleccionado</returns>
+        </member>
+        <member name="T:HarryPotter.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:HarryPotter.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:HarryPotter.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:HarryPotter.BaseDatos.BBDD">
+            <summary>
+            Clase encargada de gestionar la base de datos de la aplicacion
+            </summary>
+        </member>
+        <member name="M:HarryPotter.BaseDatos.BBDD.Conexion">
+            <summary>
+            Establece la conexion a la base de datos.
+            </summary>
+        </member>
+        <member name="M:HarryPotter.BaseDatos.BBDD.Conectar(System.String,System.String)">
+            <summary>
+            Conexion a la base de datos a traves de un usuario y una contraseña
+            </summary>
+            <param name="usuario">Nombre deL usuario</param>
+            <param name="contraseña">Contraseña del usuario</param>
+            <returns>Devuelve verdadero si se ha podido conectar, falso en caso contrario</returns>
+        </member>
+        <member name="M:HarryPotter.BaseDatos.BBDD.Añadir(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Añade un nuevo usuario a la base de datos
+            </summary>
+            <param name="nombre">Nombre del usuario</param>
+            <param name="usuario">Alias del usuario</param>
+            <param name="contraseña">Contraseña del usuario</param>
+            <param name="admin">Indica si el usuario es administrador</param>
+        </member>
+        <member name="M:HarryPotter.BaseDatos.BBDD.Borrar(System.String)">
+            <summary>
+            Borra un usuario de la base de datos a partir de su nombre de usuario
+            </summary>
+            <param name="usuario">El nombre de usuario del usuario que se quiere borrar</param>
+        </member>
+        <member name="M:HarryPotter.BaseDatos.BBDD.MostrarUsuarios">
+            <summary>
+            Muestra todos los nombres de usuario de la base de datos
+            </summary>
+        </member>
+        <member name="M:HarryPotter.BaseDatos.BBDD.EsAdministrador">
+            <summary>
+            Devuelve si el usuario actual es administrador
+            </summary>
+            <returns>Devuelve verdadero si el usuario es administrador, falso en caso contrario</returns>
+        </member>
+        <member name="T:HarryPotter.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:HarryPotter.MainWindow.#ctor">
+            <summary>
+            Constructor de la clase MainWindow
+            </summary>
+        </member>
+        <member name="M:HarryPotter.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Borrar">
+            <summary>
+            Clase que se utiliza para barrar Usuarios
+            </summary>
+            <summary>
+            Borrar
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Borrar.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Borrar.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Borrar.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Salir"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Borrar.Eliminar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Eliminar"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Borrar.CargarUsuarios">
+            <summary>
+            Metodo que se encarga de mostrar los usuarios de la base de datos
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Borrar.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Clase">
+            <summary>
+            Clase que se utiliza para aprender hechizos
+            </summary>
+            <summary>
+            Clase
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Clase.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Clase.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Clase.mostrarHechizos">
+            <summary>
+            Metodo que muestra los nombres de los hechizos
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Clase.Hechizos_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se selecciona un hechizo
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Clase.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Gryffindor">
+            <summary>
+            Clase que se utiliza para conocer a los personajes de Gryffindor
+            </summary>
+            <summary>
+            Gryffindor
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Gryffindor.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Gryffindor.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Gryffindor.mostrarCasa">
+            <summary>
+            Metodo asincrono que muestra la lista de los personajes
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Gryffindor.Personajes_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace selecciona un personaje de la casa
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Gryffindor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Hufflepuff">
+            <summary>
+            Clase que se utiliza para conocer a los personajes de Hufflepuff
+            </summary>
+            <summary>
+            Hufflepuff
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Hufflepuff.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Hufflepuff.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Hufflepuff.mostrarCasa">
+            <summary>
+            Metodo asincrono que muestra los personajes de la casa
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Hufflepuff.Personajes_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace selecciona un personaje de la casa
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Hufflepuff.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Inicio">
+            <summary>
+            Clase que muestra la primera pagina de la aplicacion
+            </summary>
+            <summary>
+            Inicio
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Inicio.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Inicio.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Inicio.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Salir"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Inicio.Acceder_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Acceder"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Inicio.Registro_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Registrar"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Inicio.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Principal">
+            <summary>
+            Pagina principal de la aplicacion
+            </summary>
+            <summary>
+            Principal
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Mas_ClaseClick(System.Type)">
+            <summary>
+            Manejador del evento Clic del boton "Clase" del user control Mas
+            </summary>
+            <param name="tipoPagina">Tipo de la pagina que se debe mostrar</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Mas_SombreroClick(System.Type)">
+            <summary>
+            Manejador del evento Clic del boton "Sombrero Seleccionador" del user control Mas
+            </summary>
+            <param name="tipoPagina">Tipo de la pagina que se debe mostrar</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Gryffindor_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton de Gryffindor
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Slytherin_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton de Gryffindor
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Hufflepuff_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton de Hufflepuff
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Ravenclaw_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton de Ravenclaw
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Sesion_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Cerrar Sesion"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Registrar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Registrar Usuario"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Salir_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Salir"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.Ayuda_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Ayuda"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.BorrarUs_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Borrar Usuario"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.VerUs_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Ver Uusarios"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.RegistrarAd_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Registrar Administrador"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Principal.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Ravenclaw">
+            <summary>
+            Clase que se utiliza para conocer a los personajes de Ravenclaw
+            </summary>
+            <summary>
+            Ravenclaw
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Ravenclaw.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Ravenclaw.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Ravenclaw.mostrarCasa">
+            <summary>
+            Metodo asincrono que se utiliza para mostrar los personajes de la casa
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Ravenclaw.Personajes_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se selecciona un personaje de la casa
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param> 
+        </member>
+        <member name="M:HarryPotter.Paginas.Ravenclaw.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Registro">
+            <summary>
+            Pagina que se utliza para registrar nuevos usuarios
+            </summary>
+            <summary>
+            Registro
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Registro.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Registro.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Registro.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Salir"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Registro.Registrar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Registrar"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Registro.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.RegistroAdmin">
+            <summary>
+            Pagina que se utliza para registrar nuevos Administradores
+            </summary>
+            <summary>
+            RegistroAdmin
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.RegistroAdmin.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.RegistroAdmin.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.RegistroAdmin.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Salir"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.RegistroAdmin.Registrar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton "Registrar"
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.RegistroAdmin.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.Slytherin">
+            <summary>
+            Clase que se utiliza para conocer a los personajes de Slytherin
+            </summary>
+            <summary>
+            Slytherin
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Slytherin.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Slytherin.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Slytherin.mostrarCasa">
+            <summary>
+            Metodo asincrono que muestra la lista de personajes de la casa
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.Slytherin.Personajes_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace selecciona un personaje de la casa
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.Slytherin.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Paginas.SombreroSeleccionador">
+            <summary>
+            Clase que se utiliza para asignar una casa de Hogwarts
+            </summary>
+            <summary>
+            SombreroSeleccionador
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.SombreroSeleccionador.#ctor">
+            <summary>
+            Constructor de la pagina
+            </summary>
+        </member>
+        <member name="M:HarryPotter.Paginas.SombreroSeleccionador.Page_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se carga la pagina
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.SombreroSeleccionador.Sombrero_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que se ejecuta cuando se hace click en el boton del Sombrero
+            </summary>
+            <param name="sender">El objeto que envia el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:HarryPotter.Paginas.SombreroSeleccionador.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Recursos.Resource1">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.Daily">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.duelo">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.escudo">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.G">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.GHRS">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.gryffindor">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.H">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.HarryPotter">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.hogwarts">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.HP">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.HPDB">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.HpFont">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.hufflepuff">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.icono">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.interior">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.mapa">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.pensar">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.pulsame">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.R">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.ravenclaw">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.S">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.Slytherin">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Recursos.Resource1.Sombrero">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="T:HarryPotter.Resource1">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.Daily">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.duelo">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.escudo">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.G">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.GHRS">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.gryffindor">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.H">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.HarryPotter">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.hogwarts">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.HP">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.HPDB">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.HpFont">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.hufflepuff">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.insignias">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.interior">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.mapa">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.R">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.ravenclaw">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.S">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.Slytherin">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:HarryPotter.Resource1.Sombrero">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="T:HarryPotter.UControl.Mas">
+            <summary>
+            Clase que define el User Control
+            </summary>
+            <summary>
+            Mas
+            </summary>
+        </member>
+        <member name="T:HarryPotter.UControl.Mas.Action">
+            <summary>
+            Delegado que se utiliza para representar un metodo que no devuelve ningun valor y que toma un argumento de tipo Type
+            </summary>
+        </member>
+        <member name="E:HarryPotter.UControl.Mas.Clic">
+            <summary>
+            Delegado utilizado para el evento Clic.
+            </summary>
+        </member>
+        <member name="M:HarryPotter.UControl.Mas.#ctor">
+            <summary>
+            Constructor de la clase Mas.
+            </summary>
+        </member>
+        <member name="M:HarryPotter.UControl.Mas.Clase_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del botón "Clase".
+            </summary>
+            <param name="sender">Objeto que envía el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:HarryPotter.UControl.Mas.Sombrero_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del botón "Sombrero Seleccionador".
+            </summary>
+            <param name="sender">Objeto que envía el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:HarryPotter.UControl.Mas.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
