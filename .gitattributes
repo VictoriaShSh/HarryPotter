@@ -1,0 +1,2 @@
+HarryPotter/bin/Release/net6.0-windows/publish/HarryPotter.dll filter=lfs diff=lfs merge=lfs -text
+InstalladorHarryPotter/Debug/InstalladorHarryPotter.msi filter=lfs diff=lfs merge=lfs -text
